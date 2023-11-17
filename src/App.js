@@ -14,7 +14,7 @@ import {
 import SceneComponent from "./components/SceneComponent"; // uses above component in same directory
 import "@babylonjs/loaders";
 function App() {
-  const Mystyle = { width: "100wh", height: "100vh" };
+  const Mystyle = { width: "100%", height: "100%" };
 
   const onSceneReady = (scene) => {
     const canvas = scene.getEngine().getRenderingCanvas();
