@@ -35,7 +35,7 @@ function App() {
     SceneLoader.ImportMesh(
       "",
       "assets/",
-      "206003.glb",
+      "44.glb",
       scene,
       function (meshes) {
         scene.createDefaultCameraOrLight(true, true, true);
