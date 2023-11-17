@@ -30,12 +30,12 @@ function App() {
       scene
     );
 
-    scene.createDefaultSkybox(hdrTexture, true);
+    //scene.createDefaultSkybox(hdrTexture, true);
 
     SceneLoader.ImportMesh(
       "",
       "assets/",
-      "44.glb",
+      "11.glb",
       scene,
       function (meshes) {
         scene.createDefaultCameraOrLight(true, true, true);
